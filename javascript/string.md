@@ -123,6 +123,12 @@ console.log(ary2.length); //1
 - concat(): +와 같은 역할
 - trim()
 ```js
+//concat
+var str1="hello";
+var str2="world";
+var result=str1.concat(str2);
+```
+```js
 //IE8 Supports trim
 if (!String.prototype.trim) {
   String.prototype.trim = function () {
