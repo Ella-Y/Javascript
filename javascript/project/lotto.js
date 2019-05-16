@@ -1,3 +1,4 @@
+"use strict";
 var ary=[];
 
 function randInt(min,max){ //random included min and max
@@ -5,6 +6,7 @@ function randInt(min,max){ //random included min and max
 }
 
 function findLotto(){
+    ary=[];
     for(var i=0;i<7;i++){
         while(true){
             var val=randInt(1,45);
